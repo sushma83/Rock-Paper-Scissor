@@ -1,0 +1,74 @@
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1366px
+
+## Colors
+
+### Primary
+
+- Scissors Gradient: hsl(39, 89%, 49%) to hsl(40, 84%, 53%)
+- Paper Gradient: hsl(230, 89%, 62%) to hsl(230, 89%, 65%)
+- Rock Gradient: hsl(349, 71%, 52%) to hsl(349, 70%, 56%)
+- Lizard Gradient: hsl(261, 73%, 60%) to hsl(261, 72%, 63%)
+- Cyan: hsl(189, 59%, 53%) to hsl(189, 58%, 57%)
+
+### Neutral
+
+- Dark Text: hsl(229, 25%, 31%)
+- Score Text: hsl(229, 64%, 46%)
+- Header Outline: hsl(217, 16%, 45%)
+
+### Background
+
+- Radial Gradient: hsl(214, 47%, 23%) to hsl(237, 49%, 15%)
+
+## Fonts
+ <section id="second">
+        <div class="container">
+            <div class="box user">
+                <h1>YOU PICKED</h1>
+                <button class="container-icon"><img src=""></button>
+            </div>
+            <div class="box comp">
+                <h1>THE HOUSE PICKED</h1>
+                <button class="container-icon"><img src=""></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="final">
+        <div class="result">
+            <div class="play-div">
+                <h1>YOU PICKED</h1>
+                <button class="container-icon player"><img src=""></button>
+            </div>
+            <div class="declare">
+                <h1>YOU WIN</h1>
+                <button class="play-again">PLAY AGAIN</button>
+            </div>
+            <div class="play-div">
+                <h1>YOU PICKED</h1>
+                <button class="container-icon bot win"><img src=""></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="rule">
+        <div class="rule-box">
+            <button class="rule-button" href="#">RULES</button>
+        </div>
+    </section>
+</div>
+
+    <div class="rule-container">
+        <img class="rule-img" src="images/image-rules.svg" alt="rules-img">
+        <img class="cross" src="images/icon-close.svg" alt="cross-image">
+    </div>
+
+    <script rel="text/javascript" src="index.js"></script>
+    
